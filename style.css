@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.sider {
+    background-color: rgb(103, 103, 223);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    gap: 5px;
+
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
